@@ -1,5 +1,44 @@
+/* ! css reset */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
 }
+
+/* ? centralizzazione */
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed black;
+    height: 100%;
+    width: 1000px;
+}
+img{
+    position: relative;
+    bottom: 35px;
+    right: 0;
+}
+
+/* prima sezione */
+
+section.red{
+    background-color: aquamarine;
+}
+section.green{
+    background-color: green;
+}
+section.yellow{
+    background-color: yellow;
+}
+
+
+

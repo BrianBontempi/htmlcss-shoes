@@ -27,9 +27,21 @@ img{
     bottom: 35px;
     right: 0;
 }
+.title{
+    position: absolute;
+    bottom: 140px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: yellow;
+}
+
 
 /* prima sezione */
-
+h1{
+    font-size: 48px;
+    text-align: center;
+}
 section.red{
     background-color: aquamarine;
 }
@@ -38,6 +50,9 @@ section.green{
 }
 section.yellow{
     background-color: yellow;
+}
+.yellow h1{
+    color: green;
 }
 
 
